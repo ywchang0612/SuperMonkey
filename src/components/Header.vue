@@ -25,14 +25,15 @@
               <div class="header-nav-wrapper">
                 <nav class="header-nav-list">
                   <div
-                      class="header-nav-item header-nav-item--collection header-nav-item--active header-nav-item--homepage">
+                      class="header-nav-item header-nav-item--collection" :class="{'header-nav-item--active': this.current === 'home', 'header-nav-item--homepage': this.current === 'home'}">
                     <a href="/">
-                      <span class="visually-hidden">Current Page:</span>
+                      <span v-if="this.current === 'home'" class="visually-hidden">Current Page:</span>
                       Home
                     </a>
                   </div>
-                  <div class="header-nav-item header-nav-item--collection">
+                  <div class="header-nav-item header-nav-item--collection" :class="{'header-nav-item--active': this.current === 'about', 'header-nav-item--homepage': this.current === 'about'}">
                     <a href="/about">
+                      <span v-if="this.current === 'about'" class="visually-hidden">Current Page:</span>
                       FAQ
                     </a>
                   </div>
@@ -80,12 +81,13 @@
                   <div
                       class="header-nav-item header-nav-item--collection header-nav-item--active header-nav-item--homepage">
                     <a href="/">
-                      <span class="visually-hidden">Current Page:</span>
+                      <span v-if="this.current === 'home'" class="visually-hidden">Current Page:</span>
                       Home
                     </a>
                   </div>
                   <div class="header-nav-item header-nav-item--collection">
                     <a href="/about">
+                      <span v-if="this.current === 'home'" class="visually-hidden">Current Page:</span>
                       FAQ
                     </a>
                   </div>
@@ -149,7 +151,7 @@
 
 <script>
 export default {
-  props: ['data'],
+  props: ['data', 'current'],
   name: "Header", 
   data() {
     return {

@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="clear-fix site-wrapper">
-    <Header :data="this.header"></Header>
+    <Header :current="'home'" :data="this.header"></Header>
     <main id="page" class="container">
       <article id="sections" class="sections">
         <Greeting :data="this.greeting"></Greeting>
