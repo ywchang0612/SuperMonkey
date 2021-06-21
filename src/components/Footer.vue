@@ -11,15 +11,15 @@
               <div class="col sqs-col-4 span-4">
                 <div class="sqs-block html-block sqs-block-html" id="block-bbf28a51c9f80a518335">
                   <div class="sqs-block-content"><h4 style="white-space:pre-wrap;">Follow Us </h4>
-                    <p class="" style="white-space:pre-wrap;"><a :href="data.followUs.twitter">Twitter</a></p>
+                    <p style="white-space:pre-wrap;"><a :href="data.followUs.twitter">Twitter</a></p>
                   </div>
                 </div>
               </div>
               <div class="col sqs-col-6 span-6">
                 <div class="sqs-block html-block sqs-block-html" id="block-c3fc5673d47159fab5e9">
                   <div class="sqs-block-content"><h4 style="white-space:pre-wrap;">Join Our Discord</h4>
-                    <p class="" style="white-space:pre-wrap;"><a :href="data.joinUs.discord">Discord </a></p>
-                    <p class="" style="white-space:pre-wrap;"></p>
+                    <p style="white-space:pre-wrap;"><a :href="data.joinUs.discord">Discord </a></p>
+                    <p style="white-space:pre-wrap;"></p>
                   </div>
                 </div>
               </div>
@@ -43,7 +43,8 @@
                 </div>
                 <div class="sqs-block html-block sqs-block-html"
                      id="block-yui_3_17_2_1_1622442865082_42643">
-                  <div class="sqs-block-content"><p style="text-align:center;white-space:pre-wrap;" v-text="data.copyright"></p></div>
+                  <div class="sqs-block-content"><p style="text-align:center;white-space:pre-wrap;"
+                                                    v-text="data.copyright"></p></div>
                 </div>
               </div>
             </div>

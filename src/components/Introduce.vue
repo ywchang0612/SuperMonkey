@@ -8,8 +8,7 @@
              id="page-section-60aebec6d21ca3763717c09b">
           <div class="row sqs-row">
             <div class="col sqs-col-12 span-12">
-              <div class="sqs-block html-block sqs-block-html"
-                   id="block-yui_3_17_2_1_1622098293987_19035">
+              <div class="sqs-block html-block sqs-block-html">
                 <div class="sqs-block-content">
                   <h2 style="text-align:center;white-space:pre-wrap;">{{ data.title }}</h2></div>
               </div>
@@ -17,12 +16,10 @@
           </div>
           <div class="row sqs-row">
             <div class="col sqs-col-7 span-7">
-              <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1"
-                   id="block-yui_3_17_2_1_1622099114266_12690">
+              <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1">
                 <div class="sqs-block-content">&nbsp;</div>
               </div>
-              <div class="sqs-block image-block sqs-block-image sqs-text-ready"
-                   id="block-yui_3_17_2_1_1622064450366_11948">
+              <div class="sqs-block image-block sqs-block-image sqs-text-ready">
                 <div class="sqs-block-content">
                   <div
                       class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-site-default individual-animation-site-default individual-text-animation-site-default animation-loaded">
@@ -43,14 +40,12 @@
               </div>
             </div>
             <div class="col sqs-col-5 span-5">
-              <div class="sqs-block spacer-block sqs-block-spacer"
-                   id="block-yui_3_17_2_1_1622098293987_35725">
+              <div class="sqs-block spacer-block sqs-block-spacer">
                 <div class="sqs-block-content sqs-intrinsic"
                      style="padding-bottom: 6.769230769230769%;">&nbsp;
                 </div>
               </div>
-              <div class="sqs-block image-block sqs-block-image sqs-col-2 span-2 float float-left sqs-text-ready"
-                   id="block-yui_3_17_2_1_1622064450366_21825">
+              <div class="sqs-block image-block sqs-block-image sqs-col-2 span-2 float float-left sqs-text-ready">
                 <div class="sqs-block-content">
                   <div
                       class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-site-default individual-animation-site-default individual-text-animation-site-default sqs-narrow-width animation-loaded">
@@ -66,21 +61,20 @@
                   </div>
                 </div>
               </div>
-              <div class="sqs-block html-block sqs-block-html"
-                   id="block-yui_3_17_2_1_1622098293987_31922">
-                <div class="sqs-block-content"><p style="white-space:pre-wrap;"><strong>{{ data.features[0].subject }}</strong></p>
+              <div class="sqs-block html-block sqs-block-html">
+                <div class="sqs-block-content"><p style="white-space:pre-wrap;"><strong>{{
+                    data.features[0].subject
+                  }}</strong></p>
                   <p style="white-space:pre-wrap;" v-text="data.features[0].description"></p></div>
               </div>
-              <div class="sqs-block spacer-block sqs-block-spacer"
-                   id="block-yui_3_17_2_1_1622763953836_32934">
+              <div class="sqs-block spacer-block sqs-block-spacer">
                 <div class="sqs-block-content sqs-intrinsic"
                      style="padding-bottom: 3.900709219858156%;">&nbsp;
                 </div>
               </div>
               <div class="row sqs-row">
                 <div class="col sqs-col-2 span-2">
-                  <div class="sqs-block image-block sqs-block-image sqs-text-ready"
-                       id="block-yui_3_17_2_1_1622763953836_48628">
+                  <div class="sqs-block image-block sqs-block-image sqs-text-ready">
                     <div class="sqs-block-content">
                       <div
                           class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-site-default individual-animation-site-default individual-text-animation-site-default sqs-narrow-width animation-loaded">
@@ -98,21 +92,20 @@
                   </div>
                 </div>
                 <div class="col sqs-col-3 span-3">
-                  <div class="sqs-block html-block sqs-block-html"
-                       id="block-yui_3_17_2_1_1622763953836_50751">
-                    <div class="sqs-block-content"><p style="white-space:pre-wrap;"><strong>{{ data.features[1].subject }}</strong></p>
+                  <div class="sqs-block html-block sqs-block-html">
+                    <div class="sqs-block-content"><p style="white-space:pre-wrap;"><strong>{{
+                        data.features[1].subject
+                      }}</strong></p>
                       <p style="white-space:pre-wrap;" v-text="data.features[1].description"></p></div>
                   </div>
                 </div>
               </div>
-              <div class="sqs-block spacer-block sqs-block-spacer"
-                   id="block-yui_3_17_2_1_1622763953836_58260">
+              <div class="sqs-block spacer-block sqs-block-spacer">
                 <div class="sqs-block-content sqs-intrinsic" style="padding-bottom: 3.900709219858156%;">&nbsp;</div>
               </div>
               <div class="row sqs-row">
                 <div class="col sqs-col-2 span-2">
-                  <div class="sqs-block image-block sqs-block-image sqs-text-ready"
-                       id="block-yui_3_17_2_1_1622763953836_61101">
+                  <div class="sqs-block image-block sqs-block-image sqs-text-ready">
                     <div class="sqs-block-content">
                       <div
                           class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-site-default individual-animation-site-default individual-text-animation-site-default sqs-narrow-width animation-loaded">
@@ -129,8 +122,7 @@
                   </div>
                 </div>
                 <div class="col sqs-col-3 span-3">
-                  <div class="sqs-block html-block sqs-block-html"
-                       id="block-yui_3_17_2_1_1622763953836_63113">
+                  <div class="sqs-block html-block sqs-block-html">
                     <div class="sqs-block-content">
                       <p style="white-space:pre-wrap;"><strong>{{ data.features[2].title }}</strong></p>
                       <p style="white-space:pre-wrap;" v-text="data.features[2].description"></p></div>

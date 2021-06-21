@@ -11,15 +11,13 @@
             <div class="col sqs-col-6 span-6">
               <div class="row sqs-row">
                 <div class="col sqs-col-1 span-1">
-                  <div class="sqs-block spacer-block sqs-block-spacer"
-                       id="block-yui_3_17_2_1_1622620412854_31297">
-                    <div class="sqs-block-content sqs-intrinsic" style="padding-bottom: 395.349%;"
-                    >&nbsp;
+                  <div class="sqs-block spacer-block sqs-block-spacer">
+                    <div class="sqs-block-content sqs-intrinsic" style="padding-bottom: 395.349%;">&nbsp;
                     </div>
                   </div>
                 </div>
                 <div class="col sqs-col-5 span-5">
-                  <div class="sqs-block html-block sqs-block-html" id="block-cccfddaf4bfa94d5ac26">
+                  <div class="sqs-block html-block sqs-block-html">
                     <div class="sqs-block-content">
                       <h2 style="text-align:center;white-space:pre-wrap;" v-text="data.title"></h2>
                       <p class="sqsrte-large" style="white-space:pre-wrap;" v-html="data.description"></p>
@@ -29,14 +27,12 @@
               </div>
             </div>
             <div class="col sqs-col-1 span-1">
-              <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1"
-                   id="block-yui_3_17_2_1_1622620412854_21307">
+              <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1">
                 <div class="sqs-block-content">&nbsp;</div>
               </div>
             </div>
             <div class="col sqs-col-5 span-5">
-              <div class="sqs-block image-block sqs-block-image sqs-text-ready"
-                   id="block-yui_3_17_2_1_1622619344738_118884">
+              <div class="sqs-block image-block sqs-block-image sqs-text-ready">
                 <div class="sqs-block-content">
                   <div
                       class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-site-default individual-animation-site-default individual-text-animation-site-default animation-loaded">
