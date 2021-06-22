@@ -27,6 +27,13 @@ module.exports = {
             // chunks to include on this page, by default includes
             // extracted common chunks and vendor chunks.
             chunks: ["chunk-vendors", "chunk-common", "about"]
-        }
+        },
+        '404': {
+            entry: "src/404.js",
+            template: "public/404.html",
+            filename: "404.html",
+            title: "SuperMonkey",
+            chunks: ["chunk-vendors", "chunk-common", "404"],
+        },
     }
 };
