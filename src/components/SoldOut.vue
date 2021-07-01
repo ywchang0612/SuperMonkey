@@ -7,7 +7,7 @@
         <img class="thumb-image"
              alt="finalyeti10.png"
              :src="data.heroImage"
-             style="width: auto; height: auto;">
+             style="width: 100%; height: auto;">
       </div>
       <div class="text-block">
         <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1">
@@ -59,6 +59,7 @@ export default {
 
 .image-block {
   text-align: center;
+  flex-shrink: 0;
 }
 
 .text-block h2 {
