@@ -14,10 +14,7 @@
           </div>
           <div class="sqs-block html-block sqs-block-html">
             <div class="sqs-block-content">
-              <p style="color:white; white-space:pre-wrap;">
-                This is a BrixStudios project.<br>
-                We are creators, designers and developers.
-              </p>
+              <p style="color:white; white-space:pre-wrap;" v-text="data.content"></p>
             </div>
           </div>
         </div>

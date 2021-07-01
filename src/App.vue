@@ -38,20 +38,19 @@ export default {
           mobile: "/assets/HeroBanner-mobile.png"
         },
         welcome: "Welcome to Monkeybrix Studios",
-        spec: "We’re making the first NFT show of its kind where YOUR Monkeybrix can be in the cast.",
+        spec: "We’re making the FIRST NFT show of its kind where we select our cast from YOUR freshly minted Monkeybrix.",
         content: [
-            "Monkeybrix 7 is a show about assembling a league of 7 Monkeybrix to face an imminent threat.",
+            "Our show, Monkeybrix 7, is about assembling a league of 7 Monkeybrix to face an imminent threat.",
             "Each Monkeybrix is a unique superhero collectible that has a chance to appear on Monkeybrix 7, receive rewards, and even become famous.",
             "Owning a Monkeybrix also grants you exclusive studio membership."
         ]
       },
       soldOut: {
         title: "Sale Launch",
-        content: "Monkeybrix drops on 7/7/21. You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. For our secondary market place, check out Open Sea. Join our discord or follow us on Twitter.",
+        content: "Monkeybrix drops on 7/7/21. You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. For our secondary market place, check out Open Sea. Join our Discord or follow us on Twitter.",
         heroImage: "/assets/012.png"
       },
       introduce: {
-        title: "What is SuperYeti?",
         heroImage: "/assets/intro01.png",
         hero2: {
           left: "/assets/17.png",
@@ -60,7 +59,7 @@ export default {
         features: [
           {
             subject: "Monkeybrix",
-            description: "10,000 unique NFT characters programmatically generated and stored as ERC-721 on Ethereum by IPFS. Monkeybrix sold here are the same price (0.08 ETH) - no bonded curve. Each Monkeybrix is a unique superhero collectible that also has a chance to appear on the Monkeybrix 7 show, receive rewards, and even become famous. Superheroes x Monkeys x Brix. Badass."
+            description: "10,000 unique NFT collectibles programmatically generated and stored as ERC-721 on Ethereum by IPFS. Monkeybrix sold here are the same price (0.08 ETH) - no bonded curve. Each Monkeybrix is a unique superhero character that also has a chance to appear on the Monkeybrix 7 show, receive rewards, and even become famous. Superheroes x Monkeys x Brix. Badass."
           },
           {
             subject: "Traits",
@@ -70,11 +69,11 @@ export default {
         features2: [
           {
             subject: "Show",
-            description: "Monkeybrix Studios is an NFT studio producing an NFT show with an NFT cast using NFT sets and props. Phew...that was a mouthful. The cast for the show will be selected from minted Monkeybrix, it could be yours. Our pilot show is Monkeybrix 7, a story about assembling a league of 7 Monkeybrix to face an imminent threat. What’s your seven?"
+            description: "Monkeybrix Studios is an NFT studio producing an NFT show with an NFT cast using NFT sets and props. Phew...that was a mouthful. We select our cast from your freshly minted Monkeybrix. Our pilot show is Monkeybrix 7, a story about assembling a league of 7 Monkeybrix to face an imminent threat. What’s your seven?"
           },
           {
             subject: "Studio Membership",
-            description: "Owning a Monkeybrix also makes you a studio member where you can participate in discussions of shows and activities that can feature your Monkeybrix. Join our discord or follow us on Twitter."
+            description: "Owning a Monkeybrix grants you membership where you can participate in discussions about cast selection as well as shows/activities that can feature your Monkeybrix. Join our Discord or follow us on Twitter."
           }
         ]
       },
@@ -90,21 +89,27 @@ export default {
         features: [
           {
             subject: "25%",
-            description: "A few lucky holders of seven or more Monkeybrix will randomly be airdropped one company locked Monkeybrix"
+            description: "7 lucky holders of 7 or more Monkeybrix will randomly be chosen to each receive one company locked Monkeybrix."
           },
           {
             subject: "50%",
-            description: "Monkeybrix selected for show promotion and receive rewards"
+            description: "7 Monkeybrix will be selected for show promotion and receive rewards."
           },
           {
-            subject: "75%",
-            description: "Monkeybrix selected to appear on the show and receive rewards"
+            subject: "77%",
+            description: "7 lucky holders of 77 or more Monkeybrix will randomly be chosen to each receive a super rare gift."
           },
           {
             subject: "100%",
-            description: "Show production begins"
+            description: "7 Monkeybrix are selected to appear on the show and receive rewards. Show production begins."
           }
         ],
+        allocation: {
+          title: "Allocation of Monkeybrix",
+          content: 
+            "50- Company locked Monkeybrix (used for promotions, giveaways, charity, and the team) \n" +
+            "9950 - Pre-Sale"
+        },
         units: [
             '/units/unit_3.png',
             '/units/unit_4.png',
@@ -119,12 +124,13 @@ export default {
         ]
       },
       team: {
-
+        content: "This is a BrixStudios project.\n We are creators, designers and developers."
       },
       footer: {
         link: {
-          twitter: "https://twitter.com/super_yeti",
-          discord: "https://discord.gg/ApesASVn4E"
+          twitter: "https://twitter.com/monkeybrix",
+          discord: "https://discord.gg/ApesASVn4E",
+          instagram: "https://www.instagram.com/monkeybrix/"
         },
         logo: "/assets/logo.png",
         copyright: "All Rights Reserved, MONKEYBRIX 2021"
@@ -136,9 +142,9 @@ export default {
     Greeting,
     SoldOut,
     Introduce,
-    WhatsYourSeven: WhatsYourSeven,
-    Roadmap: Roadmap,
-    Team: Team,
+    WhatsYourSeven,
+    Roadmap,
+    Team,
     Footer,
   }
 }

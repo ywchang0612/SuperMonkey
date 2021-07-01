@@ -34,12 +34,8 @@
               </div>
               <div id="roadmap-allocation">
                 <div>
-                  <h3 class="subject">Allocation of Monkeybrix</h3>
-                  <div class="description">
-                    50- Company locked Monkeybrix (used for promotions, community giveaways & charity)<br>
-                    50 - Allocation for Team<br>
-                    9900 - Sale
-                  </div>
+                  <h3 class="subject">{{ data.allocation.title }}</h3>
+                  <div class="description" v-text="data.allocation.content"></div>
                 </div>
                 <div>
                   <div style="display:flex;"
