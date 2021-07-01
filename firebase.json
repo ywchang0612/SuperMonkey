@@ -2,14 +2,8 @@
   "hosting": {
     "public": "dist",
     "rewrites": [ {
-      "source": "/about",
-      "destination": "/about.html"
-    }, {
-      "source": "/",
-      "destination": "/index.html"
-    }, {
       "source": "**",
-      "destination": "/404.html"
+      "destination": "/index.html"
     } ],
     "ignore": [
       "firebase.json",
