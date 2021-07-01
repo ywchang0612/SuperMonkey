@@ -26,9 +26,7 @@
         <div class="sqs-block html-block sqs-block-html">
           <div class="sqs-block-content buy-block">
             <div>
-              <select name="unit" id="unit" class="buy-count">
-                <option value="">16 UNIT</option>
-              </select>
+              <input class="buy-count">
             </div>
             <div>
               <button type="button" class="buy-button">Buy</button>
@@ -87,6 +85,8 @@ export default {
 
 .buy-count {
   background: transparent;
+  text-align: center;
+  width: 75px;
   padding: 8px 32px;
   color: rgb(239, 239, 239);
   border: 1px solid rgb(239, 239, 239);
