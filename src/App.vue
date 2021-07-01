@@ -47,7 +47,7 @@ export default {
       },
       soldOut: {
         title: "Sale Launch",
-        content: "Monkeybrix drops on 7/7/21. You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. For our secondary market place, check out Open Sea. Join our Discord or follow us on Twitter.",
+        content: "Monkeybrix drops on (TBA). You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. For our secondary market place, check out Open Sea. Join our Discord or follow us on Twitter.",
         heroImage: "/assets/012.png"
       },
       introduce: {
