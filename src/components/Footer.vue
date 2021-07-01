@@ -12,7 +12,7 @@
                 <div class="sqs-block html-block sqs-block-html" id="block-bbf28a51c9f80a518335">
                   <div class="sqs-block-content">
                     <h4>Follow and join us </h4>
-                    <p style="" v-for="(link, name) in data.link" :key="link"><a :href="link" v-text="name"></a></p>
+                    <p style="" v-for="(link, name) in data.link" :key="link"><a :href="link" target="_blank" v-text="name"></a></p>
                     <p style=""></p>
                   </div>
                 </div>

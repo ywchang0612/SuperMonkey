@@ -129,8 +129,8 @@ export default {
       footer: {
         link: {
           twitter: "https://twitter.com/monkeybrix",
-          discord: "https://discord.gg/ApesASVn4E",
-          instagram: "https://www.instagram.com/monkeybrix/"
+          discord: "https://discord.gg/PytJDTJEKp",
+          instagram: "https://www.instagram.com/monkeybrix"
         },
         logo: "/assets/logo.png",
         copyright: "All Rights Reserved, MONKEYBRIX 2021"
