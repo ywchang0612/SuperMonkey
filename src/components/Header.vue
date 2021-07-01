@@ -1,6 +1,5 @@
 <template>
   <header id="header" class="header theme-col--primary white" tabindex="-1">
-    <div class="sqs-announcement-bar-dropzone"></div>
     <div class="header-announcement-bar-wrapper">
       <a href="#page" tabindex="1" class="header-skip-link">
         Skip to Content
@@ -25,16 +24,29 @@
               <div class="header-nav-wrapper">
                 <nav class="header-nav-list">
                   <div
-                      class="header-nav-item header-nav-item--collection" :class="{'header-nav-item--active': this.current === 'home', 'header-nav-item--homepage': this.current === 'home'}">
-                    <a href="/">
-                      <span v-if="this.current === 'home'" class="visually-hidden">Current Page:</span>
-                      Home
+                      class="header-nav-item header-nav-item--collection">
+                    <a href="#about">
+                      About
                     </a>
                   </div>
-                  <div class="header-nav-item header-nav-item--collection" :class="{'header-nav-item--active': this.current === 'about', 'header-nav-item--homepage': this.current === 'about'}">
-                    <a href="/about">
-                      <span v-if="this.current === 'about'" class="visually-hidden">Current Page:</span>
-                      FAQ
+                  <div class="header-nav-item header-nav-item--collection">
+                    <a href="#monkeybrix">
+                      MonkeyBrix
+                    </a>
+                  </div>
+                  <div class="header-nav-item header-nav-item--collection">
+                    <a href="#show">
+                      Show
+                    </a>
+                  </div>
+                  <div class="header-nav-item header-nav-item--collection">
+                    <a href="#roadmap">
+                      Roadmap
+                    </a>
+                  </div>
+                  <div class="header-nav-item header-nav-item--collection">
+                    <a href="#team">
+                      Team
                     </a>
                   </div>
                 </nav>
@@ -52,9 +64,9 @@
               <span class="js-header-burger-open-title visually-hidden">Open Menu</span>
               <span class="js-header-burger-close-title visually-hidden">Close Menu</span>
               <div class="burger-box">
-                <div class="burger-inner header-menu-icon-doubleLineHamburger ">
+                <div class="burger-inner header-menu-icon-doubleLineHamburger">
                   <div class="top-bun"></div>
-                  <div class="patty"></div>
+                  <div class="middle-bun"></div>
                   <div class="bottom-bun"></div>
                 </div>
               </div>
@@ -130,14 +142,31 @@
             <div class="header-menu-nav-folder-content">
               <div
                   class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active header-menu-nav-item--homepage">
-                <a href="/">
-                  <span class="visually-hidden">Current Page:</span>
-                  Home
+                <a href="#about" @click="activeBurger">
+                  About
                 </a>
               </div>
               <div class="container header-menu-nav-item header-menu-nav-item--collection">
-                <a href="/about">
-                  FAQ
+                <a href="#monkeybrix" @click="activeBurger">
+                  MonkeyBrix
+                </a>
+              </div>
+              <div
+                  class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active header-menu-nav-item--homepage">
+                <a href="#show" @click="activeBurger">
+                  Show
+                </a>
+              </div>
+              <div
+                  class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active header-menu-nav-item--homepage">
+                <a href="#roadmap" @click="activeBurger">
+                  Roadmap
+                </a>
+              </div>
+              <div
+                  class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active header-menu-nav-item--homepage">
+                <a href="#team" @click="activeBurger">
+                  Team
                 </a>
               </div>
             </div>
@@ -152,18 +181,18 @@
 <script>
 export default {
   props: ['data', 'current'],
-  name: "Header", 
+  name: "Header",
   data() {
     return {
       isActive: false
     }
   },
   methods: {
-    activeBurger: function() {
+    activeBurger: function () {
       this.isActive = !this.isActive;
-      
+
       const body = document.getElementsByTagName('body')[0];
-      
+
       if (body.classList.contains('header--menu-open')) {
         body.classList.remove('header--menu-open');
       } else {
@@ -175,5 +204,77 @@ export default {
 </script>
 
 <style scoped>
+#header {
+  background-color: black;
+  position: relative;
+}
 
+#header .burger-box {
+  width: 24px;
+  height: 24px;
+  padding: 11px 0;
+}
+
+#header .header-nav-wrapper a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#header .burger-inner .top-bun,
+#header .burger-inner .patty,
+#header .burger-inner .bottom-bun {
+  background-color: white;
+}
+
+.burger-inner.header-menu-icon-doubleLineHamburger .patty {
+  transform: none;
+}
+
+.burger-inner.header-menu-icon-doubleLineHamburger .top-bun {
+  transform: translatey(-7.5px);
+}
+.burger--active .burger-inner .top-bun {
+  width: 24px;
+  transform: translatex(3.5px) rotate(
+      -135deg
+  );
+}
+
+.burger-inner.header-menu-icon-doubleLineHamburger .bottom-bun {
+  transform: translatey(7.5px);
+}
+
+.burger--active .burger-inner .bottom-bun {
+  width: 24px;
+  transform: translatex(3.5px) rotate(
+      135deg
+  );
+}
+
+.burger--active .burger-inner.navLeft .patty, .burger--active .burger-inner.navRight .patty, .burger--active .burger-inner .patty {
+  transform: scale(0);
+}
+
+#header .header-layout-nav-right .header-nav-item:not(:first-child):not(.header-actions-action--cart) {
+  margin-left: 1.5vw;
+}
+
+.header .header-announcement-bar-wrapper {
+  padding: 2vw 4vw;
+}
+
+.header-menu .header-menu-bg {
+  background-color: black;
+  opacity: .8;
+}
+
+.header-menu .header-menu-nav a,
+.header-menu .header-menu-nav .header-nav-item--active a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 7vw 5vw;
+  font-size: 5vmin;
+}
 </style>
