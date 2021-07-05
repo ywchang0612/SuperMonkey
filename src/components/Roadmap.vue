@@ -96,6 +96,10 @@ h2:before {
   text-align: center;
 }
 
+#roadmap-allocation .description {
+  white-space:pre-wrap;
+}
+
 #roadmap-allocation {
   display: flex;
   justify-content: space-between;
