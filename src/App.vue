@@ -38,16 +38,16 @@ export default {
           mobile: "/assets/HeroBanner-mobile.png"
         },
         welcome: "Welcome to Monkeybrix Studios",
-        spec: "We’re making the FIRST NFT show of its kind where we select our cast from YOUR freshly minted Monkeybrix.",
+        spec: "We’re making the FIRST NFT show of its kind where we can select our cast from YOUR freshly minted Monkeybrix.",
         content: [
             "Our show, Monkeybrix 7, is about assembling a league of 7 Monkeybrix to face an imminent threat.",
-            "Each Monkeybrix is a unique superhero collectible that has a chance to appear on Monkeybrix 7, receive rewards, and even become famous.",
+            "Each Monkeybrix is a unique superhero collectible that has a chance to appear on Monkeybrix 7, receive reward, and even become famous.",
             "Owning a Monkeybrix also grants you exclusive studio membership."
         ]
       },
       soldOut: {
         title: "Sale Launch",
-        content: "Monkeybrix drops on (TBA). You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. For our secondary market place, check out Open Sea. Join our Discord or follow us on Twitter.",
+        content: "Monkeybrix drops on 7/13/21, 1pm EST. You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. For our secondary market place, check out Open Sea. Join our Discord or follow us on Twitter.",
         heroImage: "/assets/012.png"
       },
       introduce: {
@@ -59,7 +59,7 @@ export default {
         features: [
           {
             subject: "Monkeybrix",
-            description: "10,000 unique NFT collectibles programmatically generated and stored as ERC-721 on Ethereum by IPFS. Monkeybrix sold here are the same price (0.08 ETH) - no bonded curve. Each Monkeybrix is a unique superhero character that also has a chance to appear on the Monkeybrix 7 show, receive rewards, and even become famous. Superheroes x Monkeys x Brix. Badass."
+            description: "10,000 unique NFT collectibles programmatically generated and stored as ERC-721 on Ethereum by IPFS. Monkeybrix sold here are the same price (0.08 ETH) - no bonded curve. Each Monkeybrix is a unique superhero character that also has a chance to appear on the Monkeybrix 7 show, receive reward, and even become famous. Superheroes x Monkeys x Brix. Badass."
           },
           {
             subject: "Traits",
