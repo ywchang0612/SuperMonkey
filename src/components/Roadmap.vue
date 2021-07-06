@@ -13,6 +13,7 @@
                   <h2 style="text-align:center;white-space:pre-wrap;">
                     <strong>{{ data.title }}</strong>
                   </h2>
+                  <div style="text-align: center; color: white">After initial sale</div>
                 </div>
               </div>
               <div class="row sqs-row">
@@ -30,6 +31,8 @@
                       </div>
                     </div>
                   </div>
+                </div>
+                <div style="text-align: center; color: white; padding-bottom: 5rem;">Note: 50 Monkeybrix are being withheld from the sale and used for rewards, giveaways, promotions, charity, and team members.
                 </div>
               </div>
               <div id="roadmap-allocation">
