@@ -1,20 +1,20 @@
 <template>
   <section id="team"
-      class="page-section layout-engine-section background-width--full-bleed section-height--medium content-width--medium horizontal-alignment--center vertical-alignment--middle "
+           class="page-section layout-engine-section background-width--full-bleed section-height--medium content-width--medium horizontal-alignment--center vertical-alignment--middle "
   >
-    <div class="content-wrapper" style="text-align: center; padding: 0">
+    <div class="content-wrapper">
       <div class="content">
         <div class="col sqs-col-12">
           <div id="team-title" class="sqs-block html-block sqs-block-html">
             <div class="sqs-block-content">
-              <h2 style="color:white; text-align:center;white-space:pre-wrap;">
+              <h2>
                 <strong>Team</strong>
               </h2>
             </div>
           </div>
           <div class="sqs-block html-block sqs-block-html">
             <div class="sqs-block-content">
-              <p style="color:white; white-space:pre-wrap;" v-text="data.content"></p>
+              <p style="text-align: center; color:white; white-space:pre-wrap;" v-text="data.content"></p>
             </div>
           </div>
         </div>
@@ -29,8 +29,10 @@ export default {
 }
 </script>
 <style scoped>
-.h2 {
-  color: white;
+
+.page-section.vertical-alignment--middle:not(.content-collection):not(.gallery-section):not(.user-items-list-section).section-height--medium > .content-wrapper {
+  padding-top: 8vw;
+  padding-bottom: 12vw;
 }
 
 #team-title {
@@ -39,8 +41,10 @@ export default {
   width: 80%;
 }
 
-.page-section.section-height--medium:not(.content-collection):not(.gallery-section):not(.user-items-list-section) {
-  align-items: normal;
-  min-height: 36vh;
+#team-title h2 {
+  color: white;
+  text-align: center;
+  white-space: pre-wrap;
 }
+
 </style>

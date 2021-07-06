@@ -25,27 +25,27 @@
                 <nav class="header-nav-list">
                   <div
                       class="header-nav-item header-nav-item--collection">
-                    <a href="#about">
+                    <a href="/#about">
                       About
                     </a>
                   </div>
                   <div class="header-nav-item header-nav-item--collection">
-                    <a href="#monkeybrix">
+                    <a href="/#monkeybrix">
                       MonkeyBrix
                     </a>
                   </div>
                   <div class="header-nav-item header-nav-item--collection">
-                    <a href="#show">
+                    <a href="/#show">
                       Show
                     </a>
                   </div>
                   <div class="header-nav-item header-nav-item--collection">
-                    <a href="#roadmap">
+                    <a href="/#roadmap">
                       Roadmap
                     </a>
                   </div>
                   <div class="header-nav-item header-nav-item--collection">
-                    <a href="#team">
+                    <a href="/#team">
                       Team
                     </a>
                   </div>
@@ -142,30 +142,30 @@
             <div class="header-menu-nav-folder-content">
               <div
                   class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active header-menu-nav-item--homepage">
-                <a href="#about" @click="activeBurger">
+                <a href="/#about" @click="activeBurger">
                   About
                 </a>
               </div>
               <div class="container header-menu-nav-item header-menu-nav-item--collection">
-                <a href="#monkeybrix" @click="activeBurger">
+                <a href="/#monkeybrix" @click="activeBurger">
                   MonkeyBrix
                 </a>
               </div>
               <div
                   class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active header-menu-nav-item--homepage">
-                <a href="#show" @click="activeBurger">
+                <a href="/#show" @click="activeBurger">
                   Show
                 </a>
               </div>
               <div
                   class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active header-menu-nav-item--homepage">
-                <a href="#roadmap" @click="activeBurger">
+                <a href="/#roadmap" @click="activeBurger">
                   Roadmap
                 </a>
               </div>
               <div
                   class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active header-menu-nav-item--homepage">
-                <a href="#team" @click="activeBurger">
+                <a href="/#team" @click="activeBurger">
                   Team
                 </a>
               </div>

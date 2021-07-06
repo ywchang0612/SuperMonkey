@@ -1,6 +1,6 @@
 <template>
   <section id="roadmap"
-      class="page-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--top ">
+           class="page-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--top ">
     <div class="section-background">
     </div>
     <div class="content-wrapper">
@@ -32,21 +32,8 @@
                     </div>
                   </div>
                 </div>
-                <div style="text-align: center; color: white; padding-bottom: 5rem;">Note: 50 Monkeybrix are being withheld from the sale and used for rewards, giveaways, promotions, charity, and team members.
-                </div>
-              </div>
-              <div id="roadmap-allocation">
-                <div>
-                  <h3 class="subject">{{ data.allocation.title }}</h3>
-                  <div class="description" v-text="data.allocation.content"></div>
-                </div>
-                <div>
-                  <div style="display:flex;"
-                       class="image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-site-default individual-animation-site-default individual-text-animation-site-default animation-loaded">
-                    <img class="thumb-image" v-for="(image, key) of data.heroImage" :key="key"
-                         :src="image"
-                         style="width: 50%; height: auto; position: relative">
-                  </div>
+                <div style="text-align: center; color: white; padding-bottom: 5rem;">Note: 50 Monkeybrix are being
+                  withheld from the sale and used for rewards, giveaways, promotions, charity, and team members.
                 </div>
               </div>
               <div class="grid-image">
@@ -66,8 +53,10 @@ export default {
 }
 </script>
 <style scoped>
+
 .page-section.vertical-alignment--top:not(.content-collection):not(.gallery-section):not(.user-items-list-section):not(.section-height--custom) > .content-wrapper {
-  padding-top: 16vw;
+  padding-top: 13vw;
+  padding-bottom: 5vw;
 }
 
 h2 {
@@ -94,34 +83,6 @@ h2:before {
 .subject, .description {
   color: white;
 }
-
-#roadmap-allocation .subject {
-  text-align: center;
-}
-
-#roadmap-allocation .description {
-  white-space:pre-wrap;
-}
-
-#roadmap-allocation {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  gap: 4rem;
-
-  margin-bottom: 6rem;
-}
-
-@media screen and (min-width: 768px) {
-  #roadmap-allocation {
-    flex-direction: row;
-  }
-
-  #roadmap-allocation .subject {
-    text-align: left;
-  }
-}
-
 
 .grid-image {
   display: grid;

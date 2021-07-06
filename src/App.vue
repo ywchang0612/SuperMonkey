@@ -104,12 +104,6 @@ export default {
             description: "Some Monkeybrix will be selected to appear on the show and the holders of those Monkeybrix will each be airdropped a reward. \n Show production begins!"
           }
         ],
-        allocation: {
-          title: "Allocation of Monkeybrix",
-          content: 
-            "50- Company locked Monkeybrix (used for promotions, giveaways, charity, and the team) \n" +
-            "9950 - Pre-Sale"
-        },
         units: [
             '/units/unit_3.png',
             '/units/unit_4.png',
@@ -124,17 +118,20 @@ export default {
         ]
       },
       team: {
-        content: "This is a BrixStudios project.\n We are creators, designers and developers."
+        content: "This is a BrixStudios project." +
+            "\nWe are creators, designers and developers."
       },
       footer: {
         link: {
           twitter: "https://twitter.com/monkeybrix",
           discord: "https://discord.gg/PytJDTJEKp",
           instagram: "https://www.instagram.com/monkeybrix",
-          "Monkeybrix Terms & Conditions" : "https://docs.google.com/document/d/13r_ao8BGQprIt_2ziKHfzZZlv-rwj2G6dIxRoiSMgyU/edit?"
         },
         logo: "/assets/logo.png",
-        copyright: "All Rights Reserved, MONKEYBRIX 2021"
+        copyright: "All Rights Reserved, MONKEYBRIX 2021",
+        terms: {
+          link: "/terms-and-conditions"
+        },
       }
     }
   },

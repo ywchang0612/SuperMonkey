@@ -23,7 +23,10 @@
                            alt="footer-logo"
                            :src="data.logo">
                     </figure>
-                    <p v-text="data.copyright"></p>
+                    <div>
+                      <p v-text="data.copyright"></p>
+                      <p><a :href="data.terms.link">Terms & Conditions</a></p>
+                    </div>
                   </div>
                 </div>
               </div>
