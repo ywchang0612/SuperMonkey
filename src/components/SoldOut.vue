@@ -82,6 +82,7 @@ export default {
   color: #687981;
   border: none;
   border-radius: 4px;
+  background: white;
 }
 
 .buy-count {
@@ -104,10 +105,8 @@ export default {
     text-align: left;
   }
 
-
   .buy-block {
     flex-direction: row;
-
   }
 }
 
