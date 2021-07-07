@@ -47,7 +47,7 @@ export default {
       },
       soldOut: {
         title: "Sale Launch",
-        content: "Monkeybrix drops on (TBA). You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. For our secondary market place, check out Open Sea. Join our Discord or follow us on Twitter.",
+        content: "Monkeybrix drops on (TBA). You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. Check out the Roadmap for rewards. For our secondary market place, check out Open Sea. Join our Discord or follow us on Twitter.",
         heroImage: "/assets/012.png"
       },
       introduce: {
@@ -59,7 +59,7 @@ export default {
         features: [
           {
             subject: "Monkeybrix",
-            description: "10,000 unique NFT collectibles programmatically generated and stored as ERC-721 on Ethereum by IPFS. Monkeybrix sold here are the same price (0.08 ETH) - no bonded curve. Each Monkeybrix is a unique superhero character that also has a chance to appear on the Monkeybrix 7 show, receive reward, and even become famous. Superheroes x Monkeys x Brix. Badass."
+            description: "10,000 unique NFT collectibles programmatically generated and stored as ERC-721 on Ethereum by IPFS. Monkeybrix sold here are the same price (0.08 ETH) - no bonded curve. Each Monkeybrix is a unique superhero character that also has a chance to appear on the Monkeybrix 7 show, receive reward (Roadmap), and even become famous. Superheroes x Monkeys x Brix. Badass."
           },
           {
             subject: "Traits",
@@ -88,19 +88,19 @@ export default {
         },
         features: [
           {
-            subject: "1 Week",
-            description: "All holders of 7 or more Monkeybrix at this time will each be airdropped a reward and be granted League status."
-          },
-          {
             subject: "2 Weeks",
-            description: "All holders of 77 or more Monkeybrix at this time will each be airdropped a super rare reward and be granted Legion status."
+            description: "All wallets with 7 or more Monkeybrix at this time will each be airdropped a unique NFT collectible reward and granted League Captain title."
           },
           {
             subject: "3 Weeks",
-            description: "Some Monkeybrix will be selected for show promotion and the holders of those Monkeybrix will each be airdropped a reward."
+            description: "All wallets with 77 or more Monkeybrix at this time will each be airdropped a super rare unique NFT collectible reward and granted Legion Commander title."
           },
           {
             subject: "4 Weeks",
+            description: "Some Monkeybrix will be selected for show promotion and the holders of those Monkeybrix will each be airdropped a reward."
+          },
+          {
+            subject: "5 Weeks",
             description: "Some Monkeybrix will be selected to appear on the show and the holders of those Monkeybrix will each be airdropped a reward. \n Show production begins!"
           }
         ],
