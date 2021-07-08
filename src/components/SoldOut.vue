@@ -26,11 +26,14 @@
         <div class="sqs-block html-block sqs-block-html">
           <div class="sqs-block-content buy-block">
             <div>
-              <input class="buy-count">
+              <input v-model="buyCount" type="number" min="1" max="20" class="buy-count">
             </div>
             <div>
-              <button type="button" class="buy-button">Buy</button>
+              <button type="button" class="buy-button" v-on:click="buttonPress">{{ this.buttonText }}</button>
             </div>
+            <div class="sqs-block-content">
+            <h4 style="white-space:pre-wrap; line-height: 2.3;">{{ this.address }}</h4>
+          </div>
           </div>
         </div>
       </div>
@@ -40,8 +43,15 @@
 </template>
 
 <script>
+import buttonPress from "../services/w3";
 export default {
   props: ['data'],
+  data: ()=>{
+  return {netID:null, address:null, buttonText:"Connect Wallet", buyCount:0}
+  },
+  methods: {
+    buttonPress:buttonPress
+  },
   name: "SoldOut"
 }
 </script>
