@@ -4,7 +4,6 @@ const bigNumber = require('bignumber.js')
 var web3 = new Web3(window['ethereum']);
 let contract_address = "0xd45a0851805210722fc58e54179fd98af2f4a575"; // rinkeby
 var itemPrice = new bigNumber("80000000000000000");
-let production = False;
 
   
 
