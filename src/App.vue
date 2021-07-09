@@ -38,16 +38,16 @@ export default {
           mobile: "/assets/HeroBanner-mobile.png"
         },
         welcome: "Welcome to Monkeybrix Studios",
-        spec: "We’re making the FIRST NFT show of its kind where we can select our cast from YOUR freshly minted Monkeybrix.",
+        spec: "We’re making the FIRST NFT show of its kind where we select our cast from YOUR freshly minted Monkeybrix.",
         content: [
             "Our show, Monkeybrix 7, is about assembling a league of 7 Monkeybrix to face an imminent threat.",
-            "Each Monkeybrix is a unique superhero collectible that has a chance to appear on Monkeybrix 7, receive reward, and even become famous.",
+            "Each Monkeybrix is a unique superhero collectible that has a chance to appear on Monkeybrix 7, receive rewards, and even become famous.",
             "Owning a Monkeybrix also grants you exclusive studio membership."
         ]
       },
       soldOut: {
         title: "Sale Launch",
-        content: "Monkeybrix drops on (TBA). You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. Check out the Roadmap for rewards. For our secondary market place, check out Open Sea. Join our Discord or follow us on Twitter.",
+        content: "Monkeybrix drops on (TBA). You can buy a maximum of 20 at a time, and pay gas fee once. You might even score a rare one. Check out the Roadmap for rewards. For our secondary market place, visit Open Sea. Join our Discord or follow us on Twitter.",
         heroImage: "/assets/012.png"
       },
       introduce: {
@@ -59,11 +59,11 @@ export default {
         features: [
           {
             subject: "Monkeybrix",
-            description: "10,000 unique NFT collectibles programmatically generated and stored as ERC-721 on Ethereum by IPFS. Monkeybrix sold here are the same price (0.08 ETH) - no bonded curve. Each Monkeybrix is a unique superhero character that also has a chance to appear on the Monkeybrix 7 show, receive reward (Roadmap), and even become famous. Superheroes x Monkeys x Brix. Badass."
+            description: "10,000 unique NFT collectibles programmatically generated and stored as ERC-721 on Ethereum by IPFS. Monkeybrix sold here are the same price (0.08 ETH) - no bonded curve. Each Monkeybrix is a unique superhero character that also has a chance to appear on the Monkeybrix 7 show, receive rewards (Roadmap), be featured in promotions, and even become famous. Superheroes x Monkeys x Brix. Badass."
           },
           {
             subject: "Traits",
-            description: "Monkeybrix are generated from nearly 200 possible traits separated into 9 categories: headwear, eyes, mouths, skin colors, shirts, pants, capes, background, and accessories. There are many rare traits and hidden themes to collect. Just a heads up, some Monkeybrix aren’t very fond of clothes."
+            description: "Monkeybrix are generated from nearly 200 possible traits separated into 9 categories: headwear, eyes, mouths, skin colors, shirts, pants, capes, backgrounds, and accessories. There are many rare traits and hidden themes to collect. Just a heads up, some Monkeybrix aren’t very fond of clothes."
           }
         ],
         features2: [
@@ -73,7 +73,7 @@ export default {
           },
           {
             subject: "Studio Membership",
-            description: "Owning a Monkeybrix grants you membership where you can participate in discussions about cast selection as well as shows/activities that can feature your Monkeybrix. Join our Discord or follow us on Twitter."
+            description: "Owning a Monkeybrix grants you membership where you gain exclusive access to our studio lot and can participate in cast selection as well as shows/activities that can feature your Monkeybrix. Our mission is to find ways to showcase your Monkeybrix to make them famous. Join our Discord or follow us on Twitter."
           }
         ]
       },
@@ -89,11 +89,11 @@ export default {
         features: [
           {
             subject: "2 Weeks",
-            description: "All wallets with 7 or more Monkeybrix at this time will each be airdropped a unique NFT collectible reward and granted League Captain title."
+            description: "All wallets with 7 or more Monkeybrix at this time will each be airdropped a unique NFT collectible reward and granted Golden Collector title."
           },
           {
             subject: "3 Weeks",
-            description: "All wallets with 77 or more Monkeybrix at this time will each be airdropped a super rare unique NFT collectible reward and granted Legion Commander title."
+            description: "All wallets with 77 or more Monkeybrix at this time will each be airdropped a super rare and unique NFT collectible reward and granted Oscar Collector title."
           },
           {
             subject: "4 Weeks",
