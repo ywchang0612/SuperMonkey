@@ -2,7 +2,7 @@ var Web3 = require('web3');
 var ABI = require('../MonkeyBrix.json')
 const bigNumber = require('bignumber.js')
 var web3 = new Web3(window['ethereum']);
-let contract_address = "0xd45a0851805210722fc58e54179fd98af2f4a575"; // rinkeby
+let contract_address = "";
 var itemPrice = new bigNumber("80000000000000000");
 
   
@@ -25,8 +25,13 @@ async function buttonPress(){
             const returned_address = address.length? address[0]:null;
             if (returned_address) { 
                 this.netID = await web3.eth.net.getId();
-                this.address = returned_address;
-                this.buttonText = "Buy"
+                if (this.netID != 1) {
+                    alert('Please connect to Ethereum Mainnet')
+                } else {
+                    this.address = returned_address;
+                    this.buttonText = "Buy"
+                }
+                
             } else {
                 alert('No address is connected')
             }
